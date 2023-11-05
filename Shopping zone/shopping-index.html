@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Globalmixhubshop</title>
+
+    <!-- =========================font qwesome icon ======================================= -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- =========================  font style ======================================== -->
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito:ital@1&family=PT+Serif:ital@1&display=swap"
+        rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat&family=Nunito:ital@1&family=PT+Serif:ital@1&display=swap"
+        rel="stylesheet">
+
+    <!-- ========================== external stylesheet  =================================== -->
+
+
+    <!-- <link rel="stylesheet" href="../style/index.css"> -->
+    <link rel="stylesheet" href="./shopping-stylesheet/shop-index.css">
+
+    <link rel="stylesheet" href="../style/footer.css">
+
+
+
+
+
+</head>
+
+<body>
+
+    <!-- <section id="header-cantainer"> -->
+
+    <!-- =============================== staring of Navbar =================================== -->
+
+    <section id="header">
+        <!-- ================ 1.box-logo =============== -->
+        <div id="shop-name">
+            <a href="#" id="shoplogo"><i class="fa-solid fa-earth-americas"></i>mixhubshop</a>
+        </div>
+
+        <!-- =========== 2.box-location =========================== -->
+
+        <div id="location-box">
+            <a href="#">
+                <aside id="loc-aside"><img id="loc-img" src="./image/map-location-icon.png" alt="" id="location-icon">
+                </aside>
+                <!-- <aside id="loc-aside"><img id="loc-img" src="https://m.media-amazon.com/images/G/31/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405936311_.png" alt="" id="location-icon"></aside> -->
+                <p id="delivery">Delivering to bhopal</p>
+                <p id="location-update">updated location</p>
+            </a>
+        </div>
+
+        <!-- ===================== 3. box-search ====================== -->
+
+
+        <div id="search-box">
+            <select id="alls">
+                <option value="all">all</option>
+                <option value="clothes">clothes</option>
+                <option value="mobile">mobile</option>
+                <option value="beauty">Beauty</option>
+                <option value="baby">Baby</option>
+                <option value="toys">Toys</option>
+                <option value="computer and accessories">computer and accessories</option>
+                <option value="gift">gift</option>
+                <option value="gift">Books</option>
+            </select>
+            <input type="search" name="search" id="search-input">
+            <!-- <div id="search-icon"><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></div> -->
+        </div>
+
+        <!-- ================ 4. box-language =========================== -->
+
+        <div id="language-box">
+            <aside><img src="./image/indian-flag.png" alt="#"></aside>
+            <select name="language" id="language">
+
+                <option value="English">English - En</option>
+                <option value="Hindi">Hindi</option>
+                <option value="Marathi">Marathi</option>
+
+            </select>
+        </div>
+
+        <!-- =================== 5. box-account ===================== -->
+
+        <div id="account-div">
+            <a href="login.html">
+                <p id="hello">hello , sign in</p>
+                <p id="account">Account & lists</p>
+            </a>
+        </div>
+
+        <!-- =================== 6. box-return & border ===================== -->
+
+
+        <div id="order-box">
+            <a href="#">
+                <p id="return">Returns</p>
+                <p id="order">& Orders</p>
+            </a>
+
+        </div>
+        <!-- =================== 7. box-cart ===================== -->
+
+        <div id="cart-box">
+            <a href="#" id="cart-a">
+                <i class="fa-solid fa-cart-shopping"></i>
+                cart
+            </a>
+        </div>
+
+
+
+    </section>
+
+    <!-- ====================== Navbar-2 section ============================== -->
+
+    <nav id="main">
+        <input type="checkbox" name="bars" id="check-in">
+
+        <label for="check-in" id="manu-open">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+
+        <label for="check-in" id="manu-close">
+            <i class="fa-solid fa-xmark"></i>
+        </label>
+
+
+        <ul id="navbar">
+            <li><a href="../index.html"><i class="fa-solid fa-house"></i>home</a></li>
+            <li><a href="./clothes.html">clothes</a></li>
+            <li><a href="./Mobile tablets & laptop.html">Mobile</a></li>
+            <li><a href="./Beauty.html">Beauty</a></li>
+            <li><a href="./Baby.html">Baby</a></li>
+            <li><a href="./toys.html">Toys</a></li>
+            <li><a href="./Laptops_&_accessories.html">Computer and accessories</a></li>
+            <li><a href="./gifts.html">gift</a></li>
+            <li><a href="./Books.html">Books</a></li>
+            <li><a href="../signup.html"><i class="fa-solid fa-user"></i>login</a></li>
+        </ul>
+    </nav>
+
+    <!-- ================================ responsive footer-navbar ========================= -->
+
+    <div id="footer-navbar"></div>
+
+    <!-- =================================== hero-type of product ============================= -->
+    <section id="product-type-mainbox">
+        <div id="product-type-box">
+            <a href="#" id="product-type-a">
+                <div id="product-type1" class="product-type"></div><br />
+                <label id="product-type-label">Top offer</label>
+            </a>
+        </div>
+
+        <div id="product-type-box">
+            <a href="#" id="product-type-a">
+                <div id="product-type2" class="product-type"></div><br />
+                <label id="product-type-label">mobiles & tablets</label>
+            </a>
+        </div>
+
+        <div id="product-type-box">
+            <a href="#" id="product-type-a">
+                <div id="product-type3" class="product-type"></div><br />
+                <label id="product-type-label">clothes</label>
+            </a>
+        </div>
+
+        <div id="product-type-box">
+            <a href="#" id="product-type-a">
+                <div id="product-type4" class="product-type"></div><br />
+                <label id="product-type-label">beauty</label>
+            </a>
+        </div>
+
+        <div id="product-type-box">
+            <a href="#" id="product-type-a">
+                <div id="product-type5" class="product-type"></div><br />
+                <label id="product-type-label">Home & Kitchen</label>
+            </a>
+        </div>
+
+        <div id="product-type-box">
+            <a href="#" id="product-type-a">
+                <div id="product-type6" class="product-type"></div><br />
+                <label id="product-type-label">electronics</label>
+            </a>
+        </div>
+
+        <div id="product-type-box">
+            <a href="#" id="product-type-a">
+                <div id="product-type7" class="product-type"></div><br />
+                <label id="product-type-label">furniture</label>
+            </a>
+        </div>
+
+    </section>
+
+
+    <!--======================================= Hero section (section-1)======================================= -->
+
+    <div class="slider-wrapper">
+        <div class="slider">
+            <div id="slider-img-box">
+                <img id="slide1" class="slider-img"
+                    src="https://images-eu.ssl-images-amazon.com/images/G/31/Events/img23/Jupiter23/Homepage/Phase2/J23_P2_PC_NTA_Hero_2x._CB574841011_.jpg"
+                    alt="404 server not available">
+            </div>
+
+            <div id="slider-img-box">
+                <img id="slide2" class="slider-img"
+                    src="https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/1e05c74a01f71a51.jpg?q=20"
+                    alt="404 server not available">
+            </div>
+
+            <div id="slider-img-box">
+                <img id="slide3" class="slider-img"
+                    src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/Beauty/Jupiter/GW/P2/PC_3000x1200fd._CB574646510_.jpg"
+                    alt="404 server not available">
+            </div>
+
+            <div id="slider-img-box">
+                <img id="slide4" class="slider-img"
+                    src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/CEPC/PC-Acc/Jupiter/Phase-2/computer_PH2_DesktopHeroTemplate_3000x1200._CB574626198_.jpg"
+                    alt="404 server not available">
+            </div>
+
+            <div id="slider-img-box">
+                <img id="slide5" class="slider-img"
+                    src="https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/32917647fffb9214.jpeg?q=20"
+                    alt="404 server not available">
+            </div>
+
+        </div>
+    </div>
+    <div class="slider-nav">
+        <a href="#slide1" id="slider-nav-a"></a>
+        <a href="#slide2" id="slider-nav-a"></a>
+        <a href="#slide3" id="slider-nav-a"></a>
+        <a href="#slide4" id="slider-nav-a"></a>
+        <a href="#slide5" id="slider-nav-a"></a>
+    </div>
+
+
+    <!-- =============================== Mobile product ================================================ -->
+
+    <section id="mobile-product-mainbox">
+
+        <br /><br />
+        <h2 id="mobile-product-title">Best Mobile</h2>
+
+        <div id="mobile-product-box-slider">
+            <div id="mobile-product-box">
+                <a href="#" id="mobile-product-a">
+                    <div id="mobile-product1" class="mobile-product"></div><br />
+
+                    <p class="mobile-price">-33% ₹11,990</p>
+                    <p class="mobile-name">Samsung Galaxy M14 5G</p>
+                    <p class="mobile-detail">|50MP Triple Cam|Segment's Only 6000 mAh 5G SP|5nm Processor|2 Gen. OS
+                        Upgrade & 4 Year
+                        Security Update|12GB RAM with RAM Plus|Android 13|Without Charger</p>
+
+                </a>
+            </div>
+
+
+
+            <div id="mobile-product-box">
+                <a href="#" id="mobile-product-a">
+                    <div id="mobile-product2" class="mobile-product"></div><br />
+                    <div>
+                        <p class="mobile-price">₹39,999₹85,99953% off</p>
+                        <p class="mobile-name">SAMSUNG Galaxy S22 5G</p>
+                        <p class="mobile-detail">8 GB RAM | 128 GB ROM
+                            15.49 cm (6.1 inch) Full HD+ Display
+                            50MP + 12MP + 10MP | 10MP Front Camera
+                            3700 mAh Lithium-ion Battery
+                            Snapdragon 8 Gen 1 Processor</p>
+                    </div>
+
+                </a>
+            </div>
+
+            <div id="mobile-product-box">
+                <a href="#" id="mobile-product-a">
+                    <div id="mobile-product3" class="mobile-product"></div><br />
+                    <div>
+                        <p class="mobile-price">₹17,999₹23,99925% off</p>
+                        <p class="mobile-name">vivo T2 5G (Nitro Blaze, 128 GB) (6 GB RAM)</p>
+                        <p class="mobile-detail">6 GB RAM | 128 GB ROM
+                            16.21 cm (6.38 inch) Full HD+ Display
+                            64 MP (OIS) + 2MP | 16MP Front Camera
+                            4500 mAh Battery
+                            Snapdragon 695 Processor</p>
+                    </div>
+                </a>
+            </div>
+
+            <div id="mobile-product-box">
+                <a href="#" id="mobile-product-a">
+                    <div id="mobile-product4" class="mobile-product"></div><br />
+                    <div>
+                        <p class="mobile-price">₹15,999
+                            ₹21,99927% off
+                        </p>
+                        <p class="mobile-name">Motorola G54 5G</p>
+                        <p class="mobile-detail">12 GB RAM | 256 GB ROM | Expandable Upto 1 TB
+                            16.51 cm (6.5 inch) Full HD+ Display
+                            50MP (OIS) + 8MP | 16MP Front Camera
+                            6000 mAh Battery
+                            Dimensity 7020 Processor</p>
+                    </div>
+                </a>
+            </div>
+
+
+            <div id="mobile-product-box">
+                <a href="#" id="mobile-product-a">
+                    <div id="mobile-product5" class="mobile-product"></div><br />
+                    <div>
+                        <p class="mobile-price">Extra ₹5000 off
+                            ₹11,999₹16,99929% off
+                        </p>
+                        <p class="mobile-name">POCO M6 Pro 5G</p>
+                        <p class="mobile-detail">6 GB RAM | 128 GB ROM | Expandable Upto 1 TB
+                            17.25 cm (6.79 inch) Full HD+ Display
+                            50MP + 2MP | 8MP Front Camera
+                            5000 mAh Battery
+                            Snapdragon 4 Gen 2 Processor</p>
+                    </div>
+                </a>
+            </div>
+
+
+            <div id="mobile-product-box">
+                <a href="#" id="mobile-product-a">
+                    <div id="mobile-product6" class="mobile-product"></div><br />
+                    <div>
+                        <p class="mobile-price">
+                            Extra ₹8000 off
+                            ₹35,999₹43,99918% off
+                        </p>
+                        <p class="mobile-name">Google Pixel 7a</p>
+                        <p class="mobile-detail">
+                            8 GB RAM | 128 GB ROM
+                            15.49 cm (6.1 inch) Full HD+ Display
+                            64MP (OIS) + 13MP | 13MP Front Camera
+                            4300 mAh Battery
+                            Tensor G2 Processor
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- =================================================product group-collection-slider============================================== -->
+    <section id="product-group-collection-container">
+        <div id="product-group-collection-slider">
+            <div id="product-group-collection-box">
+                <h2 id="product-group-collection-title">Min. 70% off | Clothing for everyone | Made for...</h2>
+                <div id="product-group-collection-flex-box">
+                    <a href="#" id="product-group-collection-div1-a">
+                        <div id="product-group-collection-div1">
+                            <div class="product-group-collection-div1-img" id="product-group-collection-div1-img1">
+                            </div><br />
+                            <p id="product-group-collection-name">Women's wear</p>
+                        </div>
+                    </a>
+
+                    <a href="#" id="product-group-collection-div1-a">
+                        <div id="product-group-collection-div1">
+                            <div class="product-group-collection-div1-img" id="product-group-collection-div1-img2">
+                            </div><br />
+                            <p id="product-group-collection-name">men's wear</p>
+                        </div>
+                    </a>
+
+                    <a href="#" id="product-group-collection-div1-a">
+                        <div id="product-group-collection-div1">
+                            <div class="product-group-collection-div1-img" id="product-group-collection-div1-img3">
+                            </div><br />
+                            <p id="product-group-collection-name">kid's wear</p>
+                        </div>
+                    </a>
+
+                    <a href="#" id="product-group-collection-div1-a">
+                        <div id="product-group-collection-div1">
+                            <div class="product-group-collection-div1-img" id="product-group-collection-div1-img4">
+                            </div><br />
+                            <p id="product-group-collection-name">Handlebags, cluthes & more</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div id="product-group-collection-box">
+                <h2 id="product-group-collection-title">Starting ₹199 | Shoes</h2>
+                <div id="product-group-collection-flex-box">
+                    <a href="#" id="product-group-collection-div1-a">
+                        <div id="product-group-collection-div1">
+                            <div class="product-group-collection-div1-img" id="product-group-collection-div2-img1">
+                            </div><br />
+                            <p id="product-group-collection-name">sports shoes</p>
+                        </div>
+                    </a>
+
+                    <a href="#" id="product-group-collection-div1-a">
+                        <div id="product-group-collection-div1">
+                            <div class="product-group-collection-div1-img" id="product-group-collection-div2-img2">
+                            </div><br />
+                            <p id="product-group-collection-name">men's shoes</p>
+                        </div>
+                    </a>
+
+                    <a href="#" id="product-group-collection-div1-a">
+                        <div id="product-group-collection-div1">
+                            <div class="product-group-collection-div1-img" id="product-group-collection-div2-img3">
+                            </div><br />
+                            <p id="product-group-collection-name">women's shoes</p>
+                        </div>
+                    </a>
+
+                    <a href="#" id="product-group-collection-div1-a">
+                        <div id="product-group-collection-div1">
+                            <div class="product-group-collection-div1-img" id="product-group-collection-div2-img4">
+                            </div><br />
+                            <p id="product-group-collection-name">kid's shoes</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+
+            <div id="product-group-collection-box">
+                <h2 id="product-group-collection-title">Up to 70% off | Deals on Furniture Brands & more</h2>
+                <div id="product-group-collection-flex-box">
+                    <a href="#" id="product-group-collection-div1-a">
+                        <div id="product-group-collection-div1">
+                            <div class="product-group-collection-div1-img" id="product-group-collection-div3-img1">
+                            </div><br />
+                            <p id="product-group-collection-name">House Temple</p>
+                        </div>
+                    </a>
+
+                    <a href="#" id="product-group-collection-div1-a">
+                        <div id="product-group-collection-div1">
+                            <div class="product-group-collection-div1-img" id="product-group-collection-div3-img2">
+                            </div><br />
+                            <p id="product-group-collection-name">rocking chairs</p>
+                        </div>
+                    </a>
+
+                    <a href="#" id="product-group-collection-div1-a">
+                        <div id="product-group-collection-div1">
+                            <div class="product-group-collection-div1-img" id="product-group-collection-div3-img3">
+                            </div><br />
+                            <p id="product-group-collection-name">Book shelves</p>
+                        </div>
+                    </a>
+
+                    <a href="#" id="product-group-collection-div1-a">
+                        <div id="product-group-collection-div1">
+                            <div class="product-group-collection-div1-img" id="product-group-collection-div3-img4">
+                            </div><br />
+                            <p id="product-group-collection-name">Sofa & Beds</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+
+            <div id="product-group-collection-box">
+                <h2 id="product-group-collection-title">Kitchen Bazaar Extra 15% 0ff</h2>
+                <div id="product-group-collection-flex-box">
+                    <a href="#" id="product-group-collection-div1-a">
+                        <div id="product-group-collection-div1">
+                            <div class="product-group-collection-div1-img" id="product-group-collection-div4-img1">
+                            </div><br />
+                            <p id="product-group-collection-name">Curtains</p>
+                        </div>
+                    </a>
+
+                    <a href="#" id="product-group-collection-div1-a">
+                        <div id="product-group-collection-div1">
+                            <div class="product-group-collection-div1-img" id="product-group-collection-div4-img2">
+                            </div><br />
+                            <p id="product-group-collection-name">Red cotton carpets</p>
+                        </div>
+                    </a>
+
+                    <a href="#" id="product-group-collection-div1-a">
+                        <div id="product-group-collection-div1">
+                            <div class="product-group-collection-div1-img" id="product-group-collection-div4-img3">
+                            </div><br />
+                            <p id="product-group-collection-name">Sofa cover</p>
+                        </div>
+                    </a>
+
+                    <a href="#" id="product-group-collection-div1-a">
+                        <div id="product-group-collection-div1">
+                            <div class="product-group-collection-div1-img" id="product-group-collection-div4-img4">
+                            </div><br />
+                            <p id="product-group-collection-name">Flasks</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ====================================== Beauty product section-3 ========================================================= -->
+
+    <section id="product-section3-cantainer">
+
+        <h2 id="product-section3-title">Starting ₹99 + 20% cashback on first order | Beauty & makeup &nbsp; &nbsp;
+            
+            <a href="#">See all offers</a>
+        
+        </h2>
+
+        <div id="product-section3-box">
+
+            <div id="product-section3-slider">
+                <a href="#"><img src="https://m.media-amazon.com/images/I/51FF5ZTyoyL._AC_SY200_.jpg" alt="server is not available" id="product-section3-img"></a>
+                <a href="#"><img src="https://m.media-amazon.com/images/I/51PlkfLpWWL._AC_SY200_.jpg" alt="server is not available" id="product-section3-img"></a>
+                <a href="#"><img src="https://m.media-amazon.com/images/I/51yjyyp1UbL._AC_SY200_.jpg" alt="server is not available" id="product-section3-img"></a>
+                <a href="#"><img src="https://m.media-amazon.com/images/I/41GeKsxBySL._AC_SY200_.jpg" alt="server is not available" id="product-section3-img"></a>
+                <a href="#"><img src="https://m.media-amazon.com/images/I/41sXjSVQrbL._AC_SY200_.jpg" alt="server is not available" id="product-section3-img"></a>
+                <a href="#"><img src="https://m.media-amazon.com/images/I/518i9EgA+xL._AC_SY200_.jpg" alt="server is not available" id="product-section3-img"></a>
+                <a href="#"><img src="https://m.media-amazon.com/images/I/51246OdUzZL._AC_SY200_.jpg" alt="server is not available" id="product-section3-img"></a>
+                <a href="#"><img src="https://m.media-amazon.com/images/I/4144RsyyeSL._AC_SY200_.jpg" alt="server is not available" id="product-section3-img"></a>
+                <a href="#"><img src="https://m.media-amazon.com/images/I/51I+1MrB5DS._AC_SY200_.jpg" alt="server is not available" id="product-section3-img"></a>
+                <a href="#"><img src="https://m.media-amazon.com/images/I/61vyDZJ0jWL._AC_SY200_.jpg" alt="server is not available" id="product-section3-img"></a>
+                <a href="#"><img src="https://m.media-amazon.com/images/I/61RH5LWdzoL._AC_SY200_.jpg" alt="server is not available" id="product-section3-img"></a>
+                <a href="#"><img src="https://m.media-amazon.com/images/I/41-w5vsN0UL._AC_SY200_.jpg" alt="server is not available" id="product-section3-img"></a>
+                <a href="#"><img src="https://m.media-amazon.com/images/I/61q2HrBfj5L._AC_SY200_.jpg" alt="server is not available" id="product-section3-img"></a>
+                <a href="#"><img src="https://m.media-amazon.com/images/I/41Mv+nKz06L._AC_SY200_.jpg" alt="server is not available" id="product-section3-img"></a>
+                <a href="#"><img src="https://m.media-amazon.com/images/I/51rGLoshzTL._AC_SY200_.jpg" alt="server is not available" id="product-section3-img"></a>
+                <a href="#"><img src="https://m.media-amazon.com/images/I/41vncBS0yjL._AC_SY200_.jpg" alt="server is not available" id="product-section3-img"></a>
+                <a href="#"><img src="https://m.media-amazon.com/images/I/81V9aPkPTgL._AC_SY200_.jpg" alt="server is not available" id="product-section3-img"></a>
+                <a href="#"><img src="https://m.media-amazon.com/images/I/41y7UvWzyXL._AC_SY200_.jpg" alt="server is not available" id="product-section3-img"></a>
+                <a href="#"><img src="https://m.media-amazon.com/images/I/61Fk2x2JNhL._AC_SY200_.jpg" alt="server is not available" id="product-section3-img"></a>
+                <a href="#"><img src="https://m.media-amazon.com/images/I/41EJr2IZYJL._AC_SY200_.jpg" alt="server is not available" id="product-section3-img"></a>   
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ========================== watchs product section -4============================== -->
+
+    <section id="product-section3-cantainer">
+
+        <h2 id="product-section3-title">Starting ₹799 | Bestselling smartwatches from top brands &nbsp; &nbsp;
+            
+            <a href="#">See all offers</a>
+        
+        </h2>
+
+        <div id="product-section3-box">
+
+            <div id="product-section3-slider">
+                <a href="#"><img src="https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/k/h/s/1-83-38083pp01-android-ios-fastrack-yes-original-imagnhzeabmcfspe.jpeg?q=70" alt="server is not available" id="product-section3-img"></a>
+                <a href="#"><img src="https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/i/2/2/-original-imagzvhswuuzay6x.jpeg?q=70" alt="server is not available" id="product-section3-img"></a>
+                <a href="#"><img src="https://rukminim2.flixcart.com/image/612/612/l5ld8y80/smartwatch/f/k/q/-original-imagg8d9hbkhfffg.jpeg?q=70" alt="server is not available" id="product-section3-img"></a>
+                <a href="#"><img src="https://rukminim2.flixcart.com/image/612/612/kz1lle80/smartwatch/t/t/p/-original-imagb54swp4xn4na.jpeg?q=70" alt="server is not available" id="product-section3-img"></a>
+                <a href="#"><img src="https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/h/m/e/-original-imagkfm8fgvwjy8y.jpeg?q=70" alt="server is not available" id="product-section3-img"></a>
+                <a href="#"><img src="https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/l/m/6/4-6-bxio2003-bxsm2003-bxsm2001-android-ios-beatxp-yes-original-imaguyfzcesjgfrr.jpeg?q=70" alt="server is not available" id="product-section3-img"></a>
+                <a href="#"><img src="https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/v/b/y/-original-imagghz4rhgynypg.jpeg?q=70" alt="server is not available" id="product-section3-img"></a>
+                <a href="#"><img src="https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/q/4/2/-original-imaggstrsxtwxzar.jpeg?q=70" alt="server is not available" id="product-section3-img"></a>
+                <a href="#"><img src="https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/x/9/4/-original-imagtdqkhz3xdkdt.jpeg?q=70" alt="server is not available" id="product-section3-img"></a>
+                <a href="#"><img src="https://rukminim2.flixcart.com/image/612/612/l5ld8y80/smartwatch/n/i/m/-original-imagg8dddyyzjnxn.jpeg?q=70" alt="server is not available" id="product-section3-img"></a>
+                <a href="#"><img src="https://rukminim2.flixcart.com/image/612/612/l1pc3gw0/smartwatch/8/i/n/-original-imagd7d44w2vfjuj.jpeg?q=70" alt="server is not available" id="product-section3-img"></a>
+                <a href="#"><img src="https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/q/t/f/-original-imagqtnhgfjkbvz5.jpeg?q=70" alt="server is not available" id="product-section3-img"></a>
+                <a href="#"><img src="https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/p/n/7/-original-imagjvdydexptdmd.jpeg?q=70" alt="server is not available" id="product-section3-img"></a>
+                <a href="#"><img src="https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/l/u/a/-original-imagr6xtvzwunhup.jpeg?q=70" alt="server is not available" id="product-section3-img"></a>
+                <a href="#"><img src="https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/f/x/c/-original-imagjvdyuxbj3men.jpeg?q=70" alt="server is not available" id="product-section3-img"></a>
+                <a href="#"><img src="https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/k/e/i/-original-imagqtnzhhy7gmdp.jpeg?q=70" alt="server is not available" id="product-section3-img"></a>
+                <a href="#"><img src="https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/m/a/8/-original-imagjvdyjgnwpywy.jpeg?q=70" alt="server is not available" id="product-section3-img"></a>
+                <a href="#"><img src="https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/s/a/c/-original-imagtdqkakpuy5mg.jpeg?q=70" alt="server is not available" id="product-section3-img"></a>
+                <a href="#"><img src="https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/r/f/z/-original-imagkx8c2sejghyf.jpeg?q=70 " alt="server is not available" id="product-section3-img"></a>
+                
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ================================ mobile product section -5 ========================= -->
+
+    <section id="product-section5-cantainer">
+
+        <h2 id="product-section5-title">Explore Top offers in Smartphones &nbsp; &nbsp;
+            
+            <a href="#">See all offers</a>
+        
+        </h2>
+
+        <div id="product-section5-box">
+
+            <div id="product-section5-slider">
+                <a href="#"><img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Wireless/PHASE31/1._CB575335719_.jpg" alt="server is not available" id="product-section5-img"></a>
+                <a href="#"><img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Wireless/PHASE31/15._CB575335719_.jpg" alt="server is not available" id="product-section5-img"></a>
+                <a href="#"><img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Wireless/PHASE31/4._CB575335719_.jpg" alt="server is not available" id="product-section5-img"></a>
+                <a href="#"><img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Wireless/PHASE31/6._CB575335719_.jpg" alt="server is not available" id="product-section5-img"></a>
+                <a href="#"><img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Wireless/PHASE31/5._CB575335719_.jpg" alt="server is not available" id="product-section5-img"></a>
+                <a href="#"><img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Wireless/PHASE31/7._CB575335719_.jpg" alt="server is not available" id="product-section5-img"></a>
+                <a href="#"><img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Wireless/PHASE31/10._CB575335719_.jpg" alt="server is not available" id="product-section5-img"></a>
+                <a href="#"><img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Wireless/PHASE31/12._CB575335719_.jpg" alt="server is not available" id="product-section5-img"></a>
+                <a href="#"><img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Wireless/PHASE31/11._CB575335719_.jpg" alt="server is not available" id="product-section5-img"></a>
+                <a href="#"><img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Wireless/PHASE31/13._CB575335719_.jpg" alt="server is not available" id="product-section5-img"></a>
+                <a href="#"><img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Wireless/PHASE31/14._CB575335719_.jpg" alt="server is not available" id="product-section5-img"></a>
+                <a href="#"><img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Wireless/PHASE31/8._CB575335719_.jpg" alt="server is not available" id="product-section5-img"></a>
+                <a href="#"><img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Wireless/PHASE31/2._CB575335719_.jpg" alt="server is not available" id="product-section5-img"></a>
+                <a href="#"><img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Wireless/PHASE31/3._CB575335719_.jpg" alt="server is not available" id="product-section5-img"></a>
+                
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ================================================= footer section ========================================================= -->
+
+
+    <section id="footer">
+        <div id="footer-main">
+            <div id="footer-about">
+                <h4 id="f-about">About Us</h4>
+                <p id="company-about">
+                    Globalmixhub.com is a india origin
+                    base companywhich is stablish in 2023.
+                    We are work in multifield area.
+                    we have entertainmet website and
+                    shopping website.
+                    our company produce student support
+                    for their bright future.
+                    we have 7 month working experience
+                    and 1 crore user in india.
+                </p>
+            </div>
+            <div id="footer-product">
+                <h4 id="f-product">Product & services</h4>
+                <div id="div1">
+                    <a href="#" class="f-product-list">clothes</a><br />
+                    <a href="#" class="f-product-list">footwear</a><br />
+                    <a href="#" class="f-product-list">domestic item</a><br />
+                    <a href="#" class="f-product-list">decoration material</a><br />
+                    <a href="#" class="f-product-list">flower</a><br />
+                    <a href="#" class="f-product-list">Resturent service</a>
+                </div>
+                <span>free Deliver</span><br />
+                <span>7 days return policy</span>
+            </div>
+            <div id="footer-Quick-link">
+                <h4 id="f-quick-title">Quick link</h4><br />
+                <a href="#" id="f-q-link">New movie</a><br /><br />
+                <a href="#" id="f-q-link">Special Offer</a><br /><br />
+                <a href="#" id="f-q-link">Shopping</a><br /><br />
+                <a href="#" id="f-q-link">music</a>
+            </div>
+            <div id="footer-Contact">
+                <h4 id="f-contact">Contact us</h4>
+                <a href="#" id="f-contact-icon"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" id="f-contact-icon"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="#" id="f-contact-icon"><i class="fa-brands fa-square-twitter"></i></a>
+                <a href="#" id="f-contact-icon"><i class="fa-solid fa-envelope"></i></a>
+                <a href="#" id="f-contact-icon"><i class="fa-brands fa-google-plus-g"></i></a>
+            </div>
+        </div>
+        <div id="developer">
+            <h4 id="f-developer">Developer Name &nbsp; : &nbsp;&nbsp; Indrajeet yaduwanshi </h4>
+        </div>
+    </section>
+
+
+
+</body>
+
+</html>

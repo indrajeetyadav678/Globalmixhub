@@ -1,0 +1,129 @@
+
+#footer{
+    width:100%;
+    border:1px solid black;
+    background-color: rgb(30, 29, 29);
+    margin-top: 20px;
+    padding-bottom: 50px;
+}
+
+#footer-main{
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+#footer-about{
+    width:25%;
+    /* border:1px solid black; */
+    padding:0px;
+}
+
+#footer-about #f-about{
+    /* font-size: 16px; */
+    font-weight: 300;
+    color:white;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#footer-about #company-about{
+    text-align: justify;
+    color:white;
+    font-size: 14px;
+    padding-top: 7px;
+}
+
+/* =============================================== */
+
+
+#footer-product{
+    width:20%;
+    /* border:1px solid black; */
+    text-align: center;
+
+}
+#footer-product #f-product{
+    font-weight: 300;
+    color:white;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+
+}
+
+#footer-product #div1{
+    margin-top: 10px 0px 15px 0px;
+    
+}
+
+#footer-product #div1 .f-product-list{
+    text-align: center;
+    color: rgb(121, 121, 245);
+    margin-top:3px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+    
+#footer-product span{
+    color:white;
+    text-transform: capitalize;
+    font-size: 12px;
+
+}
+
+/* ========================================================== */
+
+#footer-Quick-link #f-quick-title{
+    font-weight: 300;
+    color:white;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;  
+}
+
+#footer-Quick-link #f-q-link{
+    text-align: center;
+    color: rgb(121, 121, 245);
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 14px;
+
+}
+
+/* ==================================================================================== */
+
+#footer-Contact #f-contact{
+    font-weight: 300;
+    color:white;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;  
+}
+
+#footer-Contact #f-contact-icon{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+    color: white;
+}
+
+/* ============================ Developer================================================================= */
+
+
+#developer{
+    width:100%;
+    margin-top:15px;
+    text-align: center;
+}
+
+#developer #f-developer{
+    color: white;
+}
+
+
+
+

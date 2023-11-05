@@ -1,0 +1,627 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Montserrat&family=Nosifer&family=Nunito:ital@1&family=PT+Serif:ital@1&family=Pacifico&family=Playpen+Sans:wght@500&display=swap');
+
+
+* {
+    padding: 0%;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*===============Section - 1 (header)==================*/
+
+.nav-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+
+/*==Navbar-1==*/
+
+.navbar1 {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar1 li {
+    margin-left: 8%;
+}
+
+.navbar1 li a {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+/*==Navbar-2==*/
+
+.navbar2 {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.navbar2 li {
+    margin-right: 10px;
+}
+
+.navbar2 li a {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+@media (max-width:643px) {
+    .navbar2 li a {
+        font-size: 10px;
+        text-decoration: none;
+    }
+
+    .navbar1 li a {
+        font-size: 10px;
+        text-decoration: none;
+    }
+}
+
+/*===============Section - 3==================*/
+
+/*==starting of div-1==*/
+
+.title1-box {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.title2-box {
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+.title-box span {
+    font-size: 20px;
+}
+
+.title-box {
+    line-height: 28px;
+    width: 45%;
+    height: 100px;
+    border-right: brown solid 1px;
+    text-align: center;
+    padding-top: 2%;
+}
+
+/*==Ending of div-1==*/
+
+/*==starting of div-2==*/
+
+.title-box2 {
+    line-height: 28px;
+    width: 55%;
+    height: auto;
+    border-right: brown solid 1px;
+    text-align: center;
+    padding-top: 1%;
+}
+
+.title-box2 ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.title-box2 ul li a {
+    text-decoration: none;
+}
+
+/*==Ending of div-2==*/
+
+.box {
+    display: flex;
+    justify-content: center;
+
+}
+
+@media (max-width:886px) {
+    .title-box2 ul {
+        display: flex;
+        justify-content: space-around;
+        /* flex-wrap: wrap; */
+    }
+
+    .title-box2 ul li {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width:673px){
+    .box{
+        display: block;
+    }
+
+    .title-box{
+        width:100%;
+    }
+
+    .title-box2{
+        width:100%;
+
+    }
+}
+
+/*===============Section - 4==================*/
+
+/*=== starting of color table (table section-1)===*/
+#table-container{
+    width:100%;
+    overflow-x: scroll;
+}
+
+#table-container::-webkit-scrollbar{
+    display: none;
+}
+
+.table-color td {
+    width: 11.12%;
+    height: 5px;
+    border: black solid 1px;
+}
+
+/*=== Ending of color table (table section-1)===*/
+
+/*=== starting of manubar3 table (table section-2)===*/
+
+.manubar3-table {
+    width: 11.11%;
+    height: 40px;
+    border: black solid 1px;
+    text-align: center;
+
+}
+
+.manubar3-table .color-1 {
+    background-color: rgba(145, 160, 119, 0.2);
+}
+
+.manubar3-table .color-2 {
+    background-color: rgba(186, 180, 173, 0.2);
+}
+
+.manubar3-table .color-3 {
+    background-color: rgba(167, 206, 206, 0.2);
+}
+
+.manubar3-table .color-4 {
+    background-color: rgba(171, 150, 119, 0.2);
+}
+
+.manubar3-table .color-5 {
+    background-color: rgba(163, 121, 121, 0.2);
+}
+
+.manubar3-table .color-6 {
+    background-color: rgba(203, 180, 149, 0.2);
+}
+
+.manubar3-table .color-7 {
+    background-color: rgba(154, 129, 176, 0.2);
+}
+
+.manubar3-table .color-8 {
+    background-color: rgba(179, 221, 223, 0.2);
+}
+
+.manubar3-table .color-9 {
+    background-color: rgba(231, 191, 177, 0.2);
+}
+
+.manubar3-table td a {
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+}
+
+/*=== Ending of manubar3 table (table section-2) ===*/
+
+/*=== starting of table-3 ===*/
+
+.table-section-3 td {
+    width: 50%;
+    height: 80px;
+    font-size: 32px;
+    padding-left: 30px;
+    background-color: rgba(245, 245, 245, 0.878);
+}
+
+/*=== Ending of table-3 ===*/
+
+/*=============== Section - 4===============*/
+
+/*=== starting of color table (table section-1)===*/
+
+.table-color td {
+    width: 11.11%;
+    height: 5px;
+
+}
+
+/*=== Ending of color table (table section-1)===*/
+
+/*=== starting of manubar3 table (table section-2)===*/
+
+.manubar3-table {
+    width: 11.11%;
+    height: 28px;
+    border: black solid 1px;
+    text-align: center;
+
+}
+
+.manubar3-table .color-1 {
+    background-color: rgba(145, 160, 119, 0.2);
+}
+
+.manubar3-table .color-2 {
+    background-color: rgba(186, 180, 173, 0.2);
+}
+
+.manubar3-table .color-3 {
+    background-color: rgba(167, 206, 206, 0.2);
+}
+
+.manubar3-table .color-4 {
+    background-color: rgba(171, 150, 119, 0.2);
+}
+
+.manubar3-table .color-5 {
+    background-color: rgba(163, 121, 121, 0.2);
+}
+
+.manubar3-table .color-6 {
+    background-color: rgba(203, 180, 149, 0.2);
+}
+
+.manubar3-table .color-7 {
+    background-color: rgba(154, 129, 176, 0.2);
+}
+
+.manubar3-table .color-8 {
+    background-color: rgba(179, 221, 223, 0.2);
+}
+
+.manubar3-table .color-9 {
+    background-color: rgba(231, 191, 177, 0.2);
+}
+
+.manubar3-table td a {
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+}
+
+/*=== Ending of manubar3 table (table section-2) ===*/
+
+/*=== starting of table-3 ===*/
+
+/* .table-section-3 td {
+    width: 50%;
+    height: 80px;
+    font-size: 32px;
+    padding-left: 30px;
+    background-color: rgba(245, 245, 245, 0.878);
+    text-align: center;
+} */
+
+/*=== Ending of table-3 ===*/
+
+/* @media (max-width:727px){
+    .manubar3-table td a{
+        font-size: 8px;
+    }
+
+} */
+
+/*=================starting of table section-4===============*/
+
+/*===starting-left-side===*/
+
+.table-section-4 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+.table-section-4-div1 {
+    width: 55%;
+    height: auto;
+    background-color: rgba(173, 248, 215, 0.2);
+    padding-left: 13px;
+    padding-top: 10px;
+    font-size: 20px;
+
+}
+
+.table-section-3 {
+    font-size: 25px;
+    background-color: rgba(209, 201, 191, 0.776);
+    margin: 0px 3px;
+    padding-top: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 50px;
+
+}
+
+.table-section-4-div1 aside img {
+    float: right;
+}
+
+.section-4-left-footer {
+    width: 90%;
+    margin-top: 4%;
+}
+
+.section-4-left-footer a {
+    font-size: 16px;
+    text-decoration: none;
+    margin-left: 8px;
+}
+
+.section-4-left-footer img {
+    width: 20px;
+}
+
+
+/*===End-left-side===*/
+
+/*=== starting-right-side===*/
+
+.table-section-4-div2 {
+    width: 45%;
+    background-color: rgba(173, 248, 215, 0.2);
+    padding-top: 10px;
+}
+
+.table-section-4-div2 aside img {
+    float: right;
+}
+
+.table-section-4-div2 ul {
+    padding-left: 21px;
+    padding-bottom: 1px;
+}
+
+.table-section-4-div2 ul li {
+    font-size: 19px;
+}
+
+.table-section-4-div2 ul a {
+    font-size: 25px;
+    ;
+}
+
+
+/* section-4 manubar-4*/
+
+.section-4-manubar4 {
+    padding-left: 8px;
+    border-top: 1px dotted black;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 8px;
+}
+
+.section-4-manubar4 p a {
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.section-4-manubar5 {
+    padding-left: 8px;
+    border-top: 1px dotted black;
+    border-bottom: 1px dotted black;
+}
+
+.section-4-manubar5 a {
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.section-4-right-footer {
+    padding: 0%;
+    margin: 0%;
+    float: right;
+    margin-top: 10px;
+
+}
+
+.section-4-right-footer a {
+    text-align: right;
+    text-decoration: none;
+}
+
+
+@media(max-width:905px) {
+    .table-section-4 {
+        display: block;
+    }
+
+    .table-section-4-div1 {
+        width: 99%;
+        margin-left: 0.5%;
+        /* margin-bottom: 60px; */
+    }
+
+    .table-section-4-div2 {
+        width: 99%;
+        margin-left: 0.5%;
+        margin-top: 60px;
+        margin-bottom: 60px;
+
+    }
+}
+
+/*=========right side manubar-5===========*/
+
+
+/*==Ending of table section-4==*/
+
+/*======================Starting of section-5==================================*/
+
+
+
+/*======================Starting of section-6==================================*/
+
+.section-6 {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(201, 199, 195, 0.834);
+    margin-top: 8px;
+
+}
+
+
+
+.section-6 .div1 {
+    width: 55%;
+    height: 460px;
+    margin-right: 5px;
+    /* background-color: rgba(198, 193, 193, 0.243); */
+}
+
+.section-6 .div1 span {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 18px;
+
+}
+
+.section5-heading-div {
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+    height: 60px;
+    padding-top: 10px;
+    /* padding:10px 0 10px 0; */
+    background-color: rgba(168, 173, 156, 0.837);
+    margin-bottom: 6px;
+}
+
+.section-6 .div1 aside img {
+    float: right;
+}
+
+.section-6 .div2 {
+    width: 45%;
+    margin-left: 5px;
+    /* background-color: rgba(198, 193, 193, 0.274); */
+
+}
+
+.section-6 .div2 span {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.section-6 .div2 aside img {
+    float: right;
+}
+
+
+/*======================Starting of section-7 ==================================*/
+
+.section-7 {
+    background-color: rgba(198, 193, 193, 0.4);
+
+
+}
+
+.section-7 .div1 img {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.section-7 .div2 {
+    width: 100%;
+    height: 160px;
+    padding-left: 20px;
+    padding-right: 10px;
+
+}
+
+.section-7 .div2 span {
+    font-size: 22px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.section-7-footer .div1 a img {
+    width: 55px;
+
+}
+
+.section-7-footer .div2 a {
+    margin: 5px;
+    font-size: 18px;
+}
+
+/*=====================================Section-8 =====================================*/
+
+#section-8 aside img {
+    float: right;
+}
+
+#section-8 div a {
+    font-size: 20px;
+}
+
+/*==================================Section-9 =======================================*/
+
+
+.section-9 {
+    width: 100%;
+    background-color: rgba(161, 12, 12, 0.918);
+    padding: 150px;
+    border: 1px solid black;
+}
+
+.Section-9 div {
+    width: 19%;
+    height: 50px;
+    display: inline-block;
+    margin-left: 150px;
+    margin-top: 25px;
+}
+
+
+.Section-9 aside img {
+    float: left;
+    height: 50px;
+    padding: 7px;
+}
+
+.Section-9 div a {
+    font-size: 20px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+
+.google-translator {
+    width: 150px;
+
+}
+
+/* ===================Footer============================================= */

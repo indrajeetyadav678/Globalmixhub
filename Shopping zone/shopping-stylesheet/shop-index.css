@@ -1,0 +1,1325 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Montserrat&family=Nosifer&family=Nunito:ital@1&family=PT+Serif:ital@1&family=Pacifico&family=Playpen+Sans:wght@500&display=swap');
+
+
+* {
+    padding: 0%;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+body{
+    background-color:#f1f2f4;
+}
+
+#header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    /* flex-wrap:wrap; */
+    justify-content: space-evenly;
+    background-color: #131921;
+    align-items: center;
+    border: none;
+
+}
+
+
+
+/* ====================1. box-logo ============================ */
+#shop-name {
+    width: 112px;
+    padding: 10px 1px 10px 1px;
+    /* border: 1px solid white; */
+}
+
+#shop-name #shoplogo {
+    font-size: 16px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #fff;
+}
+
+#shop-name:hover {
+    border: 1px solid white;
+}
+
+@media(max-width:807px) {
+    #shop-name {
+        width: 93px;
+    }
+
+    #shop-name #shoplogo {
+        font-size: 12px;
+    }
+
+
+}
+
+
+
+
+/* ====================2. box-location ============================ */
+
+
+
+#location-box {
+    width: 170px;
+    padding: 5px 2px 5px 2px;
+    /* border: 1px solid white; */
+}
+
+#location-box:hover {
+    border: 1px solid white;
+}
+
+#location-box a #loc-aside {
+    float: left;
+    padding-right: 10px;
+}
+
+#location-box a #loc-aside #loc-img {
+    height: 20px;
+    margin-top: 5px;
+}
+
+#location-box a #delivery {
+    font-size: 12px;
+    padding-left: 5px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+#location-box a {
+    text-decoration: none;
+}
+
+#location-box a #location-update {
+    padding-left: 5px;
+    font-size: 16px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+@media(max-width:863px) {
+
+    #location-box a #loc-aside #loc-img {
+
+        height: 12px;
+        margin-top: 3px;
+    }
+
+    #location-box {
+        width: 78px;
+        padding: 2px 0px 2px 0px;
+    }
+
+    #location-box a #delivery {
+        font-size: 6px;
+        padding-left: 0px;
+    }
+
+    #location-box a #loc-aside{
+    padding-right: 1px;
+
+    }
+
+    #location-box a #location-update {
+        padding-left: 0px;
+        font-size: 8px;
+    }
+}
+
+/* ====================3. box-search ============================ */
+#search-box {
+    width: 450px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* #search-box:hover {
+    border: 1px solid black;
+} */
+
+
+#alls {
+    width: 18%;
+    height: 32px;
+    /* border-radius: 2px 0px 0px 2px; */
+    background-color: #e9e5e5e1;
+    border: none;
+    outline: none;
+    text-transform: capitalize;
+}
+
+/* #alls option{
+    font-size: 12px;
+} */
+
+#alls:hover {
+    background-color: #c1bebe;
+}
+
+#search-input {
+    width: 78%;
+    height: 32px;
+    border: none;
+    outline: none;
+    padding:2px 45px 2px 5px;
+    background-image: url('../image/search\ icon2.png');
+    background-size: 12%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+/* #search-icon{
+    width:30px;
+    height:30px;
+    text-align: center;
+    background-color: #fae5ca;
+    border: none;
+    outline: none;
+    
+} 
+#search-icon i{
+    width:8px;
+    text-align: center;
+} */
+
+/* #search-icon:hover{
+    background-color: #edc38d;
+} */
+
+@media(max-width:1075px) {
+    #search-box {
+        width: 200px;
+        height:20px;
+    }
+}
+
+@media(max-width:807px) {
+    #search-box {
+        width: 150px;
+    }
+}
+
+
+
+
+
+/* ==================== 4.box-language ============================ */
+
+#language-box {
+    width: 130px;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    /* border: 1px solid white; */
+
+    /* background-image: url('../image/indian-flag.png');
+    background-size: 20%;
+    background-repeat: no-repeat; */
+}
+
+#language-box:hover {
+    border: 1px solid white;
+}
+
+#language-box aside {
+    float: left;
+    /* top:10px; */
+}
+
+#language-box aside img {
+    width: 25px;
+    /* padding: 0px; */
+}
+
+#language-box #language {
+    height: 23px;
+    border: none;
+}
+
+@media(max-width:807px) {
+    #language-box aside img {
+        width: 16px;
+        /* padding: 0px; */
+    }
+
+    #language-box #language {
+        height: 18px
+    }
+
+    #language-box #language option {
+        font-size: 8px;
+
+    }
+}
+
+/* ==================== 5.box-account ============================ */
+
+#account-div {
+    width: 100px;
+    padding: 5px 2px 5px 2px;
+    /* border: 1px solid white; */
+
+}
+
+#account-div:hover {
+    border: 1px solid white;
+}
+
+#account-div a {
+    text-decoration: none;
+
+}
+
+#account-div #hello {
+    font-size: 12px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+#account-div #account {
+    font-size: 14px;
+    color: #fff;
+}
+
+@media(max-width:807px) {
+
+    #account-div {
+        width: 60px;
+        padding: 3px 0px 3px 0px;
+
+    }
+
+    #account-div #hello {
+        font-size: 6px;
+    }
+
+    #account-div #account {
+        font-size: 8px;
+    }
+}
+
+/* ==================== 6.box-return & order ============================ */
+
+#order-box {
+    width: 60px;
+    padding: 5px 2px 5px 2px;
+    /* border: 1px solid white; */
+
+
+}
+
+#order-box:hover {
+    border: 1px solid white;
+
+}
+
+#order-box a {
+    text-decoration: none;
+}
+
+#order-box #return {
+    font-size: 12px;
+    color: #fff;
+}
+
+#order-box #order {
+    font-size: 14px;
+    color: #fff;
+}
+
+@media(max-width:807px) {
+    #order-box {
+        width: 32px;
+        padding: 3px 0px 3px 0px;
+    }
+
+    #order-box #return {
+        font-size: 6px;
+    }
+
+    #order-box #order {
+        font-size: 8px;
+    }
+
+}
+
+/* ==================== 6.box-cart ============================ */
+
+#cart-box {
+    width: 60px;
+    padding: 10px 2px 10px 2px;
+    /* border: 1px solid white; */
+
+}
+
+#cart-box:hover {
+    border: 1px solid white;
+}
+
+#cart-box a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+}
+
+@media(max-width:807px) {
+    #cart-box {
+        width: 32px;
+        padding: 3px 0px 3px 0px;
+    }
+
+    #cart-box a {
+        text-decoration: none;
+        font-size: 8px;
+    }
+
+}
+
+/* =============================== Navbar-2 section==================================== */
+
+#main {
+    width: 100%;
+    height: 41px;
+    border: 1px solid rgb(72, 64, 64);
+    padding-left: 2%;
+    padding-right: 2%;
+    /* padding-bottom: 3px; */
+    background-color: #222c39;
+    /* display: flex;
+    justify-content:space-around;
+    align-items: center; */
+}
+
+#check-in {
+    display: none;
+}
+
+#manu-open {
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    top: 29px;
+    left: 90%;
+    display: none;
+}
+
+#manu-close {
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    top: 29px;
+    left: 90%;
+    display: none;
+}
+
+
+
+/* #logo {
+    font-size: 24px;
+    font-weight: bolder;
+
+    color:chocolate;
+    color: white;
+    color:black;
+    text-shadow: 3px -2px 1px rgb(167, 53, 53);
+    text-shadow: 3px -4px 1px rgb(167, 53, 53);
+    background-color: rgba(248, 237, 237, 0.5);
+    border-radius: 10%;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'PT Serif', serif;
+} */
+
+#navbar {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    /* justify-content: space-evenly; */
+    justify-content: space-around;
+    border:none;
+    outline: none;
+
+}
+
+#navbar li a {
+    font-size: 16px;
+    font-weight: bolder;
+    /* color:black; */
+    color: white;
+    /* text-shadow: 2px -2px 1px rgb(167, 53, 53); */
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    text-transform: capitalize;
+
+}
+
+#navbar li {
+
+    padding: 8px 8px 8px 8px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+#navbar li a:hover {
+    background-color: rgb(90, 226, 90);
+    /*background-color:rgba(0, 0, 0, 0.6);*/
+    padding: 3px 5px;
+    border-radius: 3px;
+    /* color:darkblue */
+}
+
+@media(max-width:1242px) {
+   
+
+    #navbar li a {
+        font-size: 12px;
+    }
+}
+
+
+@media(max-width:876px) {
+    #logo {
+        font-size: 12px;
+    }
+
+    #navbar li a {
+        font-size: 8px;
+    }
+}
+
+@media(max-width:576px) {
+    #navbar {
+        width: 100%;
+        height: auto;
+        background-color: rgba(18, 11, 34, 1);
+        display: block;
+        padding-left: 30%;
+        /* padding-right: 10%; */
+        position: absolute;
+        top: 70px;
+        left: 0;
+        text-align: left;
+        display: none;
+        z-index: 10;
+    }
+
+    #navbar li {
+        margin: 4.5px;
+    }
+
+    #navbar li a {
+        font-size: 12px;
+        text-decoration: none;
+        color: white;
+        text-transform: capitalize;
+    }
+
+    #manu-open {
+        display: block;
+    }
+
+    #check-in:checked~#navbar {
+        display: block;
+    }
+
+    #check-in:checked~#manu-open {
+        display: none;
+    }
+
+    #check-in:checked~#manu-close {
+        display: block;
+    }
+}
+
+/* =========== responsive footer-navbar =========================== */
+
+#footer-navbar{
+    width:100%;
+    height:45px;
+    background-color: #131921;
+    display: none;
+    position:fixed;
+    bottom:0px;
+}
+
+/* ====================== display responsive of section============================================= */
+
+
+@media(max-width:576px){
+    #header{
+        /* display:none; */
+        height:30px;
+        border: none;
+        background-color: #242f3e ;
+        outline: none;
+    }
+
+    #shop-name{
+        display: block;
+        position: absolute;
+        top:15px;
+        left:3%;
+    }
+
+    #location-box{
+        display: none;
+    }
+
+    #language-box{
+        /* display: none; */
+        position: fixed;
+        bottom:5px;
+        left:22%;
+        z-index: 2;
+    }
+
+    #account-div{
+        /* display: none; */
+        position: fixed;
+        bottom:10px;
+        right:6%;
+        z-index: 2;
+
+    }
+
+    #order-box{
+        /* display: none; */
+        position: fixed;
+        bottom:10px;
+        right:27%;
+        z-index: 2;
+
+    }
+
+    #cart-box{
+        /* display: none; */
+        position: fixed;
+        bottom:10px;
+        right:15%;
+        left:6%;
+        z-index: 2;
+
+    }
+
+    #search-box{
+        position: absolute;
+        top:24px;
+        left:38%;
+    }
+    
+    #main{
+        border: none;
+        outline: none;
+        background-color: #242f3e;
+    }
+
+    #footer-navbar{
+        display: block;
+    }
+}
+
+/*================================Product type-box ======================================================= */
+
+#product-type-mainbox{
+    width:100%;
+    height:160px;
+    /* border:1px solid black; */
+    background-color: #a79db124;
+    margin: 10px 0% 10px 0%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow-x: scroll;
+    /* overflow: hidden; */
+
+}
+
+#product-type-mainbox::-webkit-scrollbar{
+    display: none;
+}
+
+#product-type-mainbox::-moz-scrollbar{
+    display: none;
+}
+
+
+#product-type-mainbox::-moz-scrollbar-track{
+    display: none;
+}
+
+#product-type-box{
+    width:110px;
+    height:120px;
+    /* border:1px solid black; */
+    text-align: center;
+    /* margin-left: 65px; */
+}
+
+#product-type-box:hover{
+    scale:1.1;
+}
+
+.product-type{
+    width:60px;
+    height:60px;
+    margin:auto;
+    margin-top: 5px;
+    /* border:1px solid black; */
+    border-radius:50%;
+}
+
+#product-type1{
+    background-image: url('https://rukminim1.flixcart.com/fk-p-flap/64/64/image/790b539a57f7b8cd.png?q=100');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#product-type2{
+    background-image: url('https://rukminim1.flixcart.com/fk-p-flap/64/64/image/444802d58a814f57.png?q=100');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#product-type3{
+    background-image: url('https://rukminim1.flixcart.com/fk-p-flap/64/64/image/e4b01f3d783c49a1.png?q=100');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#product-type4{
+    background-image: url('https://rukminim1.flixcart.com/fk-p-flap/64/64/image/9e4acc1d8929bcc6.png?q=100');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#product-type5{
+    background-image: url('https://rukminim1.flixcart.com/fk-p-flap/64/64/image/9ba7be5608413886.png?q=100');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#product-type6{
+    background-image: url('https://rukminim1.flixcart.com/fk-p-flap/64/64/image/ce3744f59fadb72e.png?q=100');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#product-type7{
+    background-image: url('https://rukminim1.flixcart.com/fk-p-flap/64/64/image/dc9cb4d7bd005f70.png?q=100');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#product-type-label{
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: capitalize;
+    
+}
+
+@media(max-width:760px){
+    #product-type-box{
+        width:70px;
+        height:90px;
+    }
+
+    .product-type{
+        width:40px;
+        height:40px;
+    }
+
+    #product-type-label{
+        font-size: 8px;        
+    }
+}
+
+@media(max-width:462px){
+    #product-type-box{
+        width:80px;
+        height:50px;
+    }
+
+    .product-type{
+        width:30px;
+        height:30px;
+    }
+
+    #product-type-label{
+        font-size: px;        
+    }
+}
+
+/* ===================== Hero section (section-1) (slider-image) ============================================ */
+
+.slider-wrapper{
+    width:100%;
+    height:320px;
+    background-color: rgba(109, 97, 97, 0.4);
+    /* border: 5px solid red; */
+    /* overflow-wrap: break-word; */
+    overflow-x:auto;
+    overflow-y: hidden;
+}
+
+.slider-wrapper::-webkit-scrollbar{
+    display: none;
+}
+
+.slider-wrapper::-moz-scrollbar{
+    display: none;
+}
+
+.slider{
+    width:500%;
+    height:320px;
+    position: relative;
+    top:0px;
+    left:0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    animation-name: indrajeet;
+    animation-duration:  10s;
+    animation-iteration-count: 3;
+    animation-direction: normal;
+   
+}
+
+@keyframes indrajeet{
+    0%{ top:0; left:0%;}
+    20%{ top:0; left:0%;}
+    30%{ top:0; left:-100%;}
+    40%{ top:0; left:-100%;}
+    50%{ top:0; left:-200%;}
+    60%{ top:0; left:-200%;}
+    70%{ top:0; left:-300%;}
+    80%{ top:0; left:-300%;}
+    90%{ top:0; left:-400%;}
+    100%{ top:0; left:-400%;}    
+}
+
+
+#slider-img-box{
+    width:20%;
+    height:320px;
+   
+}
+
+
+
+.slider-img{
+    width:100%;
+    height:320px;
+    /* position: relative;
+    left:0px; */
+}
+
+#product-type-a{
+    text-decoration: none;
+}
+
+
+.slider-nav{
+    display: flex;
+    justify-content: center;
+    /* border: 5px solid red; */
+    position: relative;
+    top:-40px;
+    /* z-index: 2;     */
+}
+
+.slider-nav #slider-nav-a{
+   width:15px;
+   height:15px;
+   border-radius: 50%;
+   border:2px solid #282727;
+   background-color: white;
+   margin-left: 10px;
+}
+
+.slider-nav #slider-nav-a:hover{
+    background-color: blue;
+}
+
+
+/* ========================================== mobile-product =================================== */
+
+#mobile-product-mainbox{
+    width:100%;
+    height:570px;
+    /* border:1px solid black; */
+    background-color: #ffffff;
+    overflow: auto;
+    overflow-y: hidden;  
+}
+
+#mobile-product-mainbox::-webkit-scrollbar{
+    display: none;
+}
+
+#mobile-product-mainbox::-moz-scrollbar{
+    display: none;
+}
+
+
+#mobile-product-title{
+margin-left: 100px;
+}
+
+#mobile-product-box-slider{
+    width:2000px;
+    margin: 10px 0px 10px 0px;
+    height:470px;
+    /* border:1px solid black; */
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;   
+}
+
+#mobile-product-box{
+    width:300px;
+    height:410px;
+    border:1px solid #e0e0e0;
+    text-align: center;
+    margin-left: 5px;    
+}
+
+#mobile-product-box #mobile-product-a{
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.mobile-product{
+    width:80%;
+    height:240px;
+    margin:auto;
+    /* border:1px solid black; */
+    /* border-radius:50%; */
+    overflow: auto;
+}
+
+/* ================================== mobile-product-img =========================================== */
+
+#mobile-product1{
+    /* background-image: url('../image/mobile1.jpg'); */
+    background-image: url('https://m.media-amazon.com/images/I/81pmO0iVNhL._SX466_.jpg');
+    background-size: 65%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#mobile-product1:hover{
+    scale: 1.1;
+}
+
+#mobile-product2{
+    /* background-image: url('../image/mobile2.webp'); */
+    background-image: url('https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/0/v/o/-original-imagth5xdvsmprdd.jpeg?q=70');
+    background-size: 65%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#mobile-product2:hover{
+    scale: 1.1;
+}
+
+
+#mobile-product3{
+    /* background-image: url('../image/mobile3.webp'); */
+    background-image: url('https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/u/1/h/-original-imagpfbvfu4p55n4.jpeg?q=70');
+    background-size: 65%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#mobile-product3:hover{
+    scale: 1.1;
+}
+
+
+#mobile-product4{
+    /* background-image: url('../image/mobile4.webp'); */
+    background-image: url('https://m.media-amazon.com/images/I/41wFRCtvrBL._SX300_SY300_QL70_FMwebp_.jpg');
+    background-size: 65%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#mobile-product4:hover{
+    scale: 1.1;
+}
+
+
+#mobile-product5{
+    /* background-image: url('../image/mobile5.webp'); */
+    background-image: url('https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/d/h/q/m6-pro-5g-mzb0eprin-poco-original-imags3e7vewsafst.jpeg?q=70');
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#mobile-product5:hover{
+    scale: 1.1;
+}
+
+
+#mobile-product6{
+    /* background-image: url('../image/mobile6.webp'); */
+    background-image: url('https://m.media-amazon.com/images/I/616Vqq0rQML._SX569_.jpg');
+    background-size: 65%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#mobile-product6:hover{
+    scale: 1.1;
+}
+
+
+/* ==================================== mobile product detail contain =============================== */
+
+.mobile-price{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #212121;
+}
+
+.mobile-name{
+    font-size: 20px;
+    font-weight: bold;
+    color: #212121;
+}
+
+.mobile-detail{
+    font-size: 12px;
+    line-height: 20px;
+    color: #212121;
+}
+
+/* ================================================= product group-collection-slider ================================== */
+
+#product-group-collection-container{
+    width:100%;
+    height:500px;
+    /* border:1px solid black; */
+    background-color:#ffffff;
+    overflow-x: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+}
+
+#product-group-collection-container::-webkit-scrollbar{
+    display: none;
+}
+
+#product-group-collection-slider{
+    width:1800px;
+    height:490px;
+    /* border:1px solid rgb(11, 238, 60); */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#product-group-collection-box{
+    width:335px;
+    height:420px;
+    background-color: #ffffff;
+    padding-top: 10px;
+    border:1px solid #282727;
+    text-align: center;
+}
+
+#product-group-collection-box:hover{
+    scale:1.1;
+}
+
+#product-group-collection-flex-box{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#product-group-collection-title{
+   margin-left:5px; 
+   margin-right:5px; 
+   font-size: 20px;
+   font-weight: bold;
+}
+
+#product-group-collection-div1-a{
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+#product-group-collection-div1{
+    width:150px;
+    height:150px;
+    /* border:1px solid rgb(107, 28, 233); */
+    margin:8px;
+    text-align: left;
+}
+
+.product-group-collection-div1-img{
+    width:130px;
+    height:100px;
+    /* border:1px solid rgb(181, 250, 54); */
+    margin: auto;
+}
+
+#product-group-collection-name{
+    color:#334142;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+/* =================  #product-group-collection-1 ========================  */
+
+#product-group-collection-div1-img1{
+    /* background-image: url('../image/women\'s\ wear.jpg'); */
+    background-image: url('../image/women\'s\ wear.jpg');
+    background-size: 100% 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#product-group-collection-div1-img2{
+    /* background-image: url('../image/mens\ wear.jpg'); */
+    background-image: url('https://rukminim2.flixcart.com/image/832/832/xif0q/shirt/g/c/v/40-10398377-roadster-original-imagkttmqzytbzhp.jpeg?q=70');
+    background-size: 100% 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#product-group-collection-div1-img3{
+    /* background-image: url('../image/kid\'s\ wear.jpg'); */
+    background-image: url('../image/kid\'s\ wear.jpg');
+    background-size: 90% 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#product-group-collection-div1-img4{
+    background-image: url('../image/handbags\,\ clutches.jpg');
+    background-size: 100% 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* ========== collection-2 ========= */
+
+#product-group-collection-div2-img1{
+    background-image: url('../image/sports\ shoes.jfif');
+    background-size: 100% 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#product-group-collection-div2-img2{
+    background-image: url('../image/men\'s\ shoes.jpg');
+    background-size: 100% 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#product-group-collection-div2-img3{
+    background-image: url('../image/Women\'s\ shoes.jpg');
+    background-size: 90% 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#product-group-collection-div2-img4{
+    background-image: url('../image/kid\'s\ shoes.jpg');
+    background-size: 100% 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* ========== collection-3 ========= */
+
+
+#product-group-collection-div3-img1{
+    background-image: url('../image/home\ temple.webp');
+    background-size: 100% 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#product-group-collection-div3-img2{
+    background-image: url('../image/rocking\ chairs.webp');
+    background-size: 100% 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#product-group-collection-div3-img3{
+    background-image: url('../image/bookshelves.webp');
+    background-size: 100% 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#product-group-collection-div3-img4{
+    background-image: url('../image/sofa\ &\ beds.webp');
+    background-size: 100% 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* ========== collection-4 ========= */
+
+#product-group-collection-div4-img1{
+    background-image: url('../image/curtains.webp');
+    background-size: 100% 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#product-group-collection-div4-img2{
+    background-image: url('../image/red\ cotton\ carpet.webp');
+    background-size: 100% 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#product-group-collection-div4-img3{
+    background-image: url('../image/sofa\ cover.webp');
+    background-size: 100% 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#product-group-collection-div4-img4{
+    background-image: url('../image/flasks.webp');
+    background-size: 100% 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* ================================= Beauty product section-3 ========================================= */
+#product-section3-cantainer{
+    width:98%;
+    height:350px;
+    background-color: #ffffff;
+    margin-left: 1%;
+    /* border:1px solid red; */
+    padding-top:20px;
+    margin-bottom: 40px;
+}
+
+
+
+#product-section3-title{
+    margin-left:15px;
+}
+
+#product-section3-title a{
+    text-decoration: none;
+}
+
+#product-section3-box{
+    overflow-x: auto;
+}
+
+#product-section3-box::-webkit-scrollbar{
+    display: none;
+}
+
+#product-section3-slider{
+    width:3930px;
+    height:250px;
+    /* border:1px solid rgb(37, 34, 34); */
+    margin-top:35px;
+    
+
+
+}
+
+#product-section3-img{
+    margin:40px 45px;
+    /* width:80px; */
+    height:130px;
+}
+
+#product-section3-img:hover{
+    scale:1.5;
+}
+
+/* ======================================== mobile product section -5 ========================== */
+
+#product-section5-cantainer{
+    width:98%;
+    height:400px;
+    background-color: #ffffff;
+    margin-left: 1%;
+    /* border:1px solid red; */
+    padding-top:20px;
+    margin-bottom: 40px;
+}
+
+
+
+#product-section5-title{
+    margin-left:15px;
+}
+
+#product-section5-title a{
+    text-decoration: none;
+}
+
+#product-section5-box{
+    overflow-x: auto;
+}
+
+#product-section5-box::-webkit-scrollbar{
+    display: none;
+}
+
+#product-section5-slider{
+    width:3930px;
+    height:300px;
+    /* border:1px solid rgb(37, 34, 34); */
+    margin-top:35px;
+    
+
+
+}
+
+#product-section5-img{
+    margin:40px 44px;
+    /* width:80px; */
+    height:180px;
+}
+
+#product-section5-img:hover{
+    scale:1.5;
+}
+
+
+/* ===================================== Footer section ============================================= */
+
+/* @media(min-width:576){
+    #footer{
+        margin-bottom:0px;
+    }
+} */
+
+/* ======================================================================== */

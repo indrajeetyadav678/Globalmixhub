@@ -1,0 +1,615 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Montserrat&family=Nosifer&family=Nunito:ital@1&family=PT+Serif:ital@1&family=Pacifico&family=Playpen+Sans:wght@500&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+body{
+    background-color: #9b22c812;;
+}
+
+/* =============================== Navigation section ===================================================== */
+
+#header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    /* flex-wrap:wrap; */
+    justify-content: space-between;
+    background-color: #131921;
+    align-items: center;
+    border: none;
+
+}
+
+/* ====================1. box-logo ============================ */
+#shop-name {
+    width: 200px;
+    padding: 10px 2px 10px 2px;
+    margin-left:20px;
+    /* border: 1px solid white; */
+}
+
+#shop-name:hover{
+    border: 1px solid white;
+
+}
+
+#shop-name #shoplogo {
+    font-size: 22px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #fff;
+}
+
+/* ====================3. box-search ============================ */
+
+#search-box {
+    width: 500px;
+    height: 32px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+#search-box:hover {
+    border: 5px solid black;
+}
+
+#search-input {
+    width: 100%;
+    height: 32px;
+    border: none;
+    outline: none;
+    border-radius:3px;
+    padding:2px 45px 2px 5px;
+    background-image: url('../image/search\ icon2.png');
+    background-size: 12%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+/* ==================== 6.box-cart ============================ */
+
+#cart-box {
+    width: 80px;
+    padding: 10px 2px 10px 2px;
+    margin-right:15px;
+    /* border: 1px solid white; */
+
+}
+
+#cart-box:hover {
+    border: 1px solid white;
+}
+
+#cart-box a {
+    text-decoration: none;
+    font-size: 22px;
+    color: #fff;
+}
+
+/* =============================== Starting Responsive of header ========================================================== */
+
+@media(max-width:849px){
+    #shop-name {
+        width: 150px;
+    }
+    
+    
+    #shop-name #shoplogo {
+        font-size: 16px;
+    }
+
+    #search-box {
+        width: 400px;
+        height: 32px;
+     
+    }
+
+    #cart-box {
+        width: 60px;
+        padding: 10px 2px 10px 2px;
+        margin-right:15px;
+    
+    }
+    
+    #cart-box a {
+        text-decoration: none;
+        font-size: 16px;
+        color: #fff;
+    }
+    
+    
+    
+}
+
+
+@media(max-width:654px){
+
+    #header{
+      padding-left:14PX;
+    }
+
+    #shop-name {
+        width: 120px;
+    }
+    
+    
+    #shop-name #shoplogo {
+        font-size: 12px;
+       
+    }
+
+    #search-box {
+        width: 200px;
+        height: 28px;
+    }
+
+    #search-input {
+        height: 28px; 
+    }
+
+    #cart-box {
+        width: 60px;
+        padding: 10px 2px 10px 2px;
+        margin-right:15px;
+        /* border: 1px solid white; */
+    
+    }
+    
+    #cart-box a {
+        text-decoration: none;
+        font-size: 16px;
+        color: #fff;
+    }    
+}
+
+/* ===================================== Manubar section ========================================================== */
+
+#main {
+    width: 100%;
+    height: 70px;
+    border: 2px solid black;
+    /* padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 15px; */
+    background-color: rgba(25, 21, 80, 0.7);
+    display: flex;
+    justify-content: space-between;
+    /* align-items: end;
+    position: sticky;
+    top: -15px;*/
+} 
+
+#check-in {
+    display: none;
+}
+
+#manu-open {
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    top: 26px;
+    right: 4%;
+    display: none;
+}
+
+#manu-close {
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    top: 26px;
+    right: 4%;
+    display: none;
+}
+
+#navbar {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#navbar li a {
+    font-size: 16px;
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    text-transform: capitalize;
+
+}
+
+#navbar li {
+    
+    padding: 8px 8px 8px 8px;
+    border-radius: 10px;
+    /* overflow: hidden; */
+}
+
+
+#navbar li a:hover {
+    background-color: rgb(90, 226, 90);
+    padding: 3px 5px;
+    border-radius: 3px;
+}
+
+@media(max-width:940px) {
+
+    #navbar li a {
+        font-size: 8px;
+    }
+
+}
+
+
+
+
+@media(max-width:608px) {
+    #navbar {
+        width: 100%;
+        height: auto;
+        background-color:rgba(0, 0, 0, 0.9);
+        display: block;
+        padding-left: 35%;
+        padding-right: 20%;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        text-align: left;
+        display: none;
+    }
+
+    #navbar li {
+        margin: 4px;
+    }
+
+    #navbar li a {
+        font-size: 12px;
+        text-decoration: none;
+        color: white;
+        text-transform: capitalize;
+    }
+
+    #manu-open {
+        display: block;
+    }
+
+    #check-in:checked~#navbar {
+        display: block;
+    }
+
+    #check-in:checked~#manu-open {
+        display: none;
+    }
+
+    #check-in:checked~#manu-close {
+        display: block;
+    }
+
+    #main{
+       height:0px
+    }
+
+    #cart-box{
+        display: none;
+    }
+
+    #shop-name {
+        width: 120px;
+        margin-left: 1%;
+    }
+
+    #search-box {
+        width: 300px;
+        height: 28px;
+        margin-right: 12%;
+    }
+}
+
+@media(max-width:492px){
+     #search-box {
+        width: 250px;
+        height: 28px;
+        margin-right: 12%;
+    }
+
+}
+
+/* ============================= title ============================================= */
+
+#clothes-title{
+    font-size: 25px;
+    margin-top: 15px;
+    color:red;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    animation:title-text 3s infinite;
+}
+
+@keyframes title-text{
+    0%{color:rgb(253, 250, 250)}
+    10%{color:rgb(209, 142, 142)}
+    20%{color:rgb(12, 243, 24)}
+    30%{color:rgb(224, 203, 7)}
+    0%{color:rgb(251, 253, 252)}
+    40%{color:rgb(3, 34, 8)}
+    50%{color:rgb(11, 189, 189)}
+    60%{color:rgb(59, 58, 173)}
+    70%{color:rgb(251, 250, 253)}
+    80%{color:rgb(247, 26, 228)}
+    90%{color:rgb(212, 16, 82)}
+    100%{color:rgb(0, 255, 55)}
+}
+
+/* ============================================== Clothes product page ================================================== */
+
+/* ==================== section - 1 =======================  */
+
+#product-catainar{
+    width:98%;
+    height:auto;
+    /* border:1px solid black; */
+    padding: 25px 15px;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 15px;
+    overflow: hidden;
+    /* padding-bottom: 25px; */
+    /* background-color: #ffffff; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    
+
+}
+
+#product-2_cantainer{
+    width:45%;
+    height:550px;
+    /* border:1px solid black; */
+    margin-left: 2%;
+    text-align: center;
+    background-color:  #a23d3d0d;   
+}
+
+#product-box{
+    width:500px;
+    height:400px;
+    /* border:1px solid black; */
+    /* margin-left: 10%; */
+    /* text-align: center; */
+    display: flex;
+    justify-content: space-between;
+}
+
+#product-img{
+    width:300px;
+    height:400px;
+    /* border:1px solid rgb(223, 23, 23); */
+}
+
+#product-2_cantainer:hover{
+    scale:1.1;
+}
+
+.cloth-product-img1{
+    width:210px;
+    height:380px;
+}
+
+/* ============ start product details ===================== */
+
+#product-details{
+    width:220px;
+    text-align: left;
+    /* border:1px solid rgb(223, 23, 23); */
+    padding-top: 10px;
+    padding-right: 4px;;
+}
+
+#product-detail-title{
+    font-size: 16px;
+    /* text-align: center; */
+}
+
+#product-detais{
+    font-size: 14px;
+}
+
+#cloth-product-name{
+    font-size: 16px;
+    margin-top:8px;
+
+}
+
+#cloth-product-price{
+    font-size:22px ;
+    margin-top:8px;
+    font-weight: bold;
+}
+
+/* =============== Order buton ========================= */
+
+#product-order{
+    width:150px;
+    height:40px;
+    border:1px solid rgb(145, 252, 5);
+    border-radius: 10px;
+    margin-top:10px;
+    background-color:rgb(103, 133, 76);
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 6px;
+    /* box-shadow: 3px -4px 2px greenyellow; */
+
+}
+
+#order-btn .order-btn-a{
+    text-decoration: none;
+}
+
+#order-btn{
+    /* margin-left: 50px; */
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+/* =================================== responsive clothes product page ======================================== */
+
+@media(max-width:1129px){
+    #product-catainar{
+        display: block;
+        margin-top: 0px;
+        padding:0px 15px;
+    }
+
+    .Clothes-product-container{
+        margin-top:0px;
+        margin-bottom:0px;
+    }
+
+    #product-2_cantainer{
+        width:100%;
+        margin-top:50px;
+    }
+    
+    #product-box{
+        width:100%;
+    }
+}
+
+@media(max-width:551px){
+    #product-details{
+        width:180px;
+        padding-top: 5px;
+        padding-right: 2px;;
+    }
+    
+    #product-detail-title{
+        font-size: 12px;
+        /* text-align: center; */
+    }
+    
+    #product-detais{
+        font-size: 8px;
+    }
+    
+    #cloth-product-name{
+        font-size: 12px;
+        margin-top:8px;
+    
+    }
+    
+    #cloth-product-price{
+        font-size:14px ;
+        margin-top:5px;
+        font-weight: bold;
+    }
+ 
+    #product-2_cantainer{
+        width:100%;
+        height:380px;
+          
+    }
+    
+    #product-box{
+        height:250px;
+        
+    }
+
+    /* .Clothes-product-container{
+        margin-top:0px;
+    }
+     */
+    #product-img{
+        width:200px;
+        height:250px;
+        /* border:1px solid rgb(223, 23, 23); */
+    }
+    
+    .cloth-product-img1{
+        width:170px;
+        height:220px;
+    }
+
+    #product-order{
+        width:80px;
+        height:30px;
+        /* border:1px solid rgb(145, 252, 5); */
+        border-radius: 5px;
+        margin-top:8pxpx;
+        background-color:rgb(103, 133, 76);
+        color: #fff;
+        font-weight: bold;
+        font-size: 12px;
+        padding-top: 3px;
+        /* box-shadow: 3px -4px 2px greenyellow; */
+    
+    }
+   
+}
+
+
+/* ========================================== for Mobile page ======================================= */
+
+#product-section5-cantainer{
+    width:98%;
+    height:400px;
+    background-color: #ffffff;
+    margin-left: 1%;
+    /* border:1px solid red; */
+    padding-top:20px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+
+
+#product-section5-title{
+    margin-left:15px;
+}
+
+#product-section5-title a{
+    text-decoration: none;
+}
+
+#product-section5-box{
+    overflow-x: auto;
+}
+
+#product-section5-box::-webkit-scrollbar{
+    display: none;
+}
+
+#product-section5-slider{
+    width:3930px;
+    height:300px;
+    /* border:1px solid rgb(37, 34, 34); */
+    margin-top:35px;
+    
+
+
+}
+
+#product-section5-img{
+    margin:40px 44px;
+    /* width:80px; */
+    height:180px;
+}
+
+#product-section5-img:hover{
+    scale:1.5;
+}
+
+

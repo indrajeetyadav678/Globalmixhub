@@ -1,0 +1,617 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=EB+Garamond&family=Montserrat&family=Nunito:ital@1&family=PT+Serif:ital@1&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    /* background-image: url('https://images.unsplash.com/photo-1695879852340-09348c00ebe9?auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDE5fGJvOGpRS1RhRTBZfHxlbnwwfHx8fHw%3D&w=400');
+    background-size: cover;
+    background-position: center; */
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+#manu {
+    width: 60px;
+    height: 33px;
+    border: 2px solid rgb(240, 240, 239);
+    padding: 4px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 5px 3px rgb(220, 222, 220);
+    background-color: transparent;
+    text-align: center;
+    overflow: hidden;
+}
+
+#manu:hover {
+    width: 65px;
+    height: 38px;
+    padding-top: 6.2px;
+}
+
+#manu a {
+    text-decoration: none;
+    font-weight: bold;
+    /* text-shadow: 1.5px -1.5px 1px rgb(233, 231, 231); */
+}
+
+#manu a i {
+    color: rgb(219, 221, 219);
+}
+
+#manu-box {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    /* border:1px solid black; */
+    padding: 25px 10% 0px 10%;
+    margin-top:40px;
+
+}
+
+/* ============== Header section =================== */
+
+#header {
+    width: 40%;
+    height: 70px;
+    /* border: 2px solid rgb(209, 232, 80); */
+    border-radius: 15px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 1px 2px 5px 3px rgb(247, 250, 248);
+    background-color:rgb(51, 49, 49);
+    padding: 8px 5px 2px 5px;
+
+}
+
+#header:hover{
+    scale:1.1;
+}
+
+#header #companyname {
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    /* color:chocolate; */
+    color: rgb(239, 241, 242);
+    /* color:rgb(48, 20, 20); */
+    /* text-shadow: 3px -2px 1px rgb(233, 231, 231); */
+    /* text-shadow: 1.5px -2px 1px rgb(187, 160, 160); */
+    /* background-color: rgba(248, 237, 237, 0.5); */
+}
+
+
+
+
+@media(max-width:844px){
+    #header #companyname{
+        font-size: 16px;
+    }
+
+    #header{height:70px;}
+}
+
+@media(max-width:615px){
+    #header companyname{
+        font-size: 12px;
+    }
+
+    #header{
+        width:60%;
+        height:55px;
+
+    }
+}
+
+
+/* ============================login box starting================= */
+
+#login-box {
+   /* min-width: 50%; */
+   width: 55%;
+    height: 500px;
+    /* border:10px solid rgb(243, 246, 66); */
+    outline: none;
+    border: none;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    padding-bottom: 25px;
+    /* background-color: rgba(0, 0, 0, 0.2); */
+    background-color: transparent;
+    box-shadow: 1px 2px 4px 6px rgb(246, 248, 245);
+    border-radius: 15px;
+    transition: 2s;
+}
+
+
+#login-box:hover{
+    scale:1.05;
+}
+
+#login-box p {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 40px;
+}
+
+
+#username{
+    width: 60%;
+    height: 50px;
+    margin-left: 20%;
+    margin-top: 50px;
+    padding-left: 20px;
+    font-size: 16px;
+    color: #dbd4d4;
+    /* box-shadow: 3px 2px 8px 3px rgb(100, 6, 92); */
+    box-shadow: 1px 2px 4px 4px rgb(212, 241, 172);
+    /* border: 2px solid rgb(212, 241, 82); */
+    background-color: transparent;
+    /* outline: none; */
+    /* border: none; */
+    border-radius: 8px;
+    transition: 1.2s;
+}
+
+
+#username:hover {
+    background-color: #fff;
+    scale: 1.1;
+    /* color: rgb(243, 242, 242); */
+
+}
+
+#pass{
+    width: 60%;
+    height: 50px;
+    margin-left: 20%;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    padding-left: 20px;
+    font-size: 16px;
+    background-color: transparent;
+    border-radius: 8px;
+    box-shadow: 1px 2px 4px 4px rgb(212, 241, 172);
+    /* border: 2px solid rgb(212, 241, 82); */
+   
+    transition: 1.2s;
+
+}
+
+#pass:hover {
+    background-color: #fff;
+    scale: 1.1;
+    color: black;
+    /* transform:skew('45deg'); */
+}
+
+/*=========remember and forget section ===============*/
+
+#forget-box {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* border:1px solid red; */
+}
+
+#forget-box #div1 {
+    overflow: hidden;
+    width: 170px;
+    height: 30px;
+    /* border: 1px solid red; */
+}
+
+#remember {
+    font-size: 12px;
+    color: rgb(196, 205, 214);
+    font-weight: bold;
+    text-shadow: 0px 0px 1px;
+    /* color:#fdfbfb; */
+}
+
+#remember:hover {
+    font-size: 14px;
+    color: green;
+    font-weight: 300;
+}
+
+#forget-box #div2 {
+    overflow: hidden;
+    width: 100px;
+    height: 30px;
+    /* border: 1px solid red; */
+}
+
+#forget {
+    font-size: 12px;
+    /* color: rgb(22, 22, 75); */
+    color: rgb(196, 205, 214);
+    font-weight: bold;
+    /* color:#fdfbfb;    */
+    text-shadow: 0px 0px 1px;
+
+}
+
+#forget:hover {
+    font-size: 14px;
+    color: green;
+    font-weight: 300;
+}
+
+/* ============ reset and submit ============== */
+
+#reset {
+    width: 80px;
+    height: 35px;
+    font-size: 16px;
+    border-radius: 10px;
+    /* border: 2px solid rgb(212, 241, 82); */
+    box-shadow: 1px 2px 5px 3px rgb(239, 241, 240);
+    background-color: transparent;
+    /* padding: 4px; */
+    color: #fff;
+}
+
+#reset:hover {
+    scale: 1.2;
+}
+
+#submit {
+    width: 80px;
+    height: 35px;
+    font-size: 16px;
+    border-radius: 10px;
+    /* border: 2px solid rgb(212, 241, 82); */
+    box-shadow: 1px 2px 5px 3px rgb(246, 248, 247);
+    background-color: transparent;
+    /* outline: none; */
+    /* border: none; */
+    color: #fff;
+}
+
+#submit:hover {
+    scale: 1.2;
+}
+
+#submit-btn-box {
+    width: 80%;
+    height: 80px;
+    /* margin-top: 0px; */
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border:1px solid red; */
+}
+/* ===================================================================================== */
+/* =============================== signup section ===================================== */
+
+#signup{
+    width:100%;
+    height:30px;
+    text-align: center;
+    /* border:1px solid red; */
+    margin-top: 12px;
+    color: #fff;
+
+
+}
+
+#signup a{
+    /* font-size: 12px; */
+    /* color: rgb(22, 22, 75);   */
+    font-weight: bold;
+    color:#fdfbfb;   
+    text-shadow: 0px 0px 1px;
+}
+
+@media(max-width:473px) {
+
+    #signup{
+        font-size: 10px;
+
+    }
+}
+
+
+/*====================== media quiry ======================================================= */
+@media(max-width:976px) {
+    #login-box {
+        width: 80%;
+        height: 480px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    #username {
+        font-size: 18px;
+    }
+}
+
+
+@media(max-width:846px) {
+
+    #login-box {
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+
+    #username {
+        font-size: 17px;
+    }
+
+    #pass {
+        font-family: 15px;
+    }
+
+}
+
+
+/* ======================================================================================================================= */
+
+/* ================================================== Signup page css ===================================================== */
+
+
+
+
+#signup-box{
+width: 50%;
+height: 860px;
+/* border:2px solid rgb(236, 240, 21); */
+/* outline: none; */
+/* border: none; */
+margin: auto;
+margin-top: 80px;
+margin-bottom: 150px;
+padding-bottom: 25px;
+background-color: rgba(0, 0, 0, 0.3);
+/* box-shadow: 1px 2px 5px 8px rgb(101, 233, 40); */
+box-shadow: 1px 2px 4px 6px rgb(246, 248, 245);
+transition: 2s;
+}
+
+#signup-box:hover{
+scale:1.02;
+}
+
+#signup-box p {
+font-size: 22px;
+font-weight: bold;
+text-align: center;
+color: rgb(248, 250, 245);
+margin-top: 30px;
+margin-bottom: 30px;
+
+}
+
+#signup-form #input-title{
+    font-size: 16px;
+    color:#fff;
+    margin-left: 20%;
+    margin-top:30px;
+
+}
+
+#fname{
+    width: 60%;
+    height: 50px;
+    margin-left: 20%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    font-size: 16px;
+    color: #dbd4d4;
+    box-shadow: 1px 2px 4px 4px rgb(212, 241, 172);
+    background-color: transparent;
+    transition: 1.2s;
+}
+
+
+#fname:hover {
+    background-color: #fff;
+    scale: 1.1;
+    color: rgb(243, 242, 242);
+
+}
+
+#number{
+    width: 60%;
+    height: 50px;
+    margin-left: 20%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    font-size: 16px;
+    background-color: transparent;
+    box-shadow: 1px 2px 4px 4px rgb(212, 241, 172);
+    transition: 1.2s;
+
+}
+
+#number:hover {
+    background-color: #fff;
+    scale: 1.1;
+    color: black;
+    /* transform:skew('45deg'); */
+}
+
+/* ======================== */
+
+#email{
+    width: 60%;
+    height: 50px;
+    margin-left: 20%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    font-size: 16px;
+    color: #dbd4d4;
+    box-shadow: 1px 2px 4px 4px rgb(212, 241, 172);
+    background-color: transparent;
+    /* outline: none; */
+    /* border: none; */
+    transition: 1.2s;
+}
+
+
+#email:hover {
+    background-color: #fff;
+    scale: 1.1;
+    color: rgb(243, 242, 242);
+
+}
+
+#confirm-pass{
+    width: 60%;
+    height: 50px;
+    margin-left: 20%;
+    margin-top: 20px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    background-color: transparent;
+    /* box-shadow: 3px 2px 8px 3px rgb(100, 6, 92); */
+    /* box-shadow: 2px 3px 5px 4px rgb(31, 231, 91); */
+    box-shadow: 1px 2px 4px 4px rgb(212, 241, 172);
+    transition: 1.2s;
+
+}
+
+#confirm-pass:hover {
+    background-color: #fff;
+    scale: 1.1;
+    color: black;
+    /* transform:skew('45deg'); */
+}
+
+ 
+/* ======================== sign-in section ================================ */
+
+#main{
+    width:60%;
+    height:30px;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20%;
+}
+
+#main #check-div{
+    width:170px;
+    height:30px;
+    overflow: hidden;
+    /* border: 1px solid red; */
+}
+
+#remember1{
+    font-size: 12px;
+    color: rgb(223, 227, 227);
+    font-weight: bolder; 
+    text-shadow: 0px 0px 1px;
+
+}
+
+#remember1:hover{
+    font-size: 16px;
+    color: rgb(242, 245, 242);
+    font-weight: 300;
+}
+
+#signup-login{
+    width:100px;
+    height:30px;
+    overflow: hidden;
+    /* color: rgb(11, 11, 41); */
+    font-weight: bolder;
+}
+
+#log-in{
+    font-size: 12px;
+    color: rgb(219, 219, 219);
+    font-weight: bolder; 
+    text-shadow: 0px 0px 1px;
+    text-decoration: none;
+
+}
+
+#log-in:hover{
+    font-size: 16px;
+    color: rgb(243, 244, 243);
+    font-weight: 300;
+
+}
+
+
+
+
+/* ======================================================================================== */
+/* ===================== Forget page Css ===================================================== */
+
+
+
+#forget-login-box{
+    width: 45%;
+    height: 430px;
+    /* border:10px solid rgb(243, 246, 66); */
+    outline: none;
+    border: none;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    padding-bottom: 25px;
+    /* background-color: rgba(0, 0, 0, 0.2); */
+    background-color: transparent;
+    box-shadow: 1px 2px 4px 6px rgb(246, 248, 245);
+    border-radius: 15px;
+    transition: 2s;
+}
+
+#forget-login-box p {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 40px;
+}
+
+#con-pass{
+    width: 60%;
+    height: 50px;
+    margin-left: 20%;
+    margin-top: 20px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    background-color: transparent;
+    border-radius: 8px;
+    box-shadow: 1px 2px 4px 4px rgb(212, 241, 172);
+    transition: 1.2s;
+
+}
+
+#con-pass:hover{
+    background-color: #fff;
+    scale: 1.1;
+    color: black; 
+}
+
+
+
