@@ -124,6 +124,47 @@
     color: white;
 }
 
+/* ========================== responsive media quairy */
+
+@media(max-width:442px){
+    #footer-about #f-about{
+        font-size: 12px;   
+    }
+    
+    #footer-about #company-about{   
+        font-size: 10px;  
+    }
+
+    #footer-product #f-product{
+        font-size: 12px;
+    }
+    
+    #footer-product #div1 .f-product-list{
+        font-size: 10px;
+    }
+        
+    #footer-product span{
+        font-size: 10px;
+    }
+
+    #footer-Quick-link #f-quick-title{
+        font-size: 12px; 
+    }
+    
+    #footer-Quick-link #f-q-link{
+        font-size: 10px;
+    }
+
+    #footer-Contact #f-contact{
+        font-size: 12px;  
+    }
+    
+    #footer-Contact #f-contact-icon{
+        font-size: 10px;    
+    }
+
+}
+
 
 
 
